@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(10, 0, 0);
+    padding: 30px 0;
+    color: rgb(241, 241, 241);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 12px;
+    
+}
+header lia {
+color: #f5f6fa;
+text-decoration: none;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    /*height: 180px; */
+    width: 170%;
+}
+.articles article {
+    width: 25%;
+}
+section {
+    padding: 25px 0;
+}
+section h2,
+
+.articles article {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.articles.article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 30px;
+}
+
+#games {
+    font-size: 18px;
+}
+#games {
+    background-color: rgb(112, 112, 112);
+}
+
+#games .articles article a {
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#series {
+    font-size: 18px;
+}
+
+#series {
+    background-color: rgba(136, 18, 2, 0.973);
+}
+
+
+#series .articles article a {
+    background-color: rgba(255, 136, 0, 0.836);
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+*{
+    color: white;
+}
+
+
+
+
